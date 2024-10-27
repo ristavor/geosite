@@ -47,10 +47,12 @@
     - Hashsum: [https://fastly.jsdelivr.net/gh/runetfreedom/russia-blocked-geosite@release/geosite.dat.sha256sum](https://fastly.jsdelivr.net/gh/runetfreedom/russia-blocked-geosite@release/geosite.dat.sha256sum)
 
 
-## Смежные проекты
+## Cмежные проекты
 
-- [@runetfreedom/russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip) - GeoIP файлы с заблокированными в России сетями и адресами
-- [@runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat) - Правила для V2Ray, основанные на этих данных
+- [@runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat) - единый источник geo файлов для v2ray/xray/sing-box
+- [@runetfreedom/russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip) - генерация geoip файлов
+- [@runetfreedom/russia-v2ray-custom-routing-list](https://github.com/runetfreedom/russia-v2ray-custom-routing-list) - правила маршрутизации для различных клиентов
+- [@runetfreedom/geodat2srs](https://github.com/runetfreedom/geodat2srs) - конвертер geoip/geosite.dat в sing-box srs
 
 ## Благодарности
 
