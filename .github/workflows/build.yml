@@ -38,10 +38,10 @@ jobs:
           repository: ristavor/russia-domains-list
           path: additional
 
-      - name: Checkout runetfreedom/domain-list-custom
+      - name: Checkout ristavor/domain-list-custom
         uses: actions/checkout@v4
         with:
-          repository: runetfreedom/domain-list-custom
+          repository: ristavor/domain-list-custom
           path: custom
 
       - name: Checkout v2fly/domain-list-community
