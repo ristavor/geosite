@@ -15,8 +15,8 @@ jobs:
     steps:
       - name: Установить переменные
         run: |
-          echo "RELEASE_NAME=release" >> $GITHUB_ENV
-          echo "TAG_NAME=release" >> $GITHUB_ENV
+          echo "RELEASE_NAME=geosite" >> $GITHUB_ENV
+          echo "TAG_NAME=geosite" >> $GITHUB_ENV
           
           echo "ANTIFILTER_DOWNLOAD_COMMUNITY=https://community.antifilter.download/list/domains.lst" >> $GITHUB_ENV
           echo "REFILTER_ALL=https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/domains_all.lst" >> $GITHUB_ENV
