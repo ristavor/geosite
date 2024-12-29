@@ -2,7 +2,7 @@ name: build.yml
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3,15 * * *"  # Запуск в 3:00 и 15:00 UTC ежедневно
+    - cron: "0 22 * * *"
   push:
     branches:
       - master
